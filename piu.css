@@ -30,7 +30,7 @@ nav:hover {
 }
 
 .logo1 {
-    background: url(logo1.png);
+    background: url(images/logo1.png);
     height: 50px;
     width: 50px;
     position: relative;
@@ -129,7 +129,7 @@ nav ul {
 .hero {
     height: 550px;
     width: 550px;
-    background: url(lo.png);
+    background: url(images/lo.png);
     background-size: cover;
     scale: 1.1;
 }
@@ -437,7 +437,7 @@ p {
     display: inline-block;
     height: 20px;
     width: 20px;
-    background: url(gem.jpg);
+    background: url(images/gem.jpg);
     background-size: cover;
     margin-top: 7px;
 }
