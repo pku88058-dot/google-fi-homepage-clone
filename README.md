@@ -13,9 +13,7 @@ A static clone of the Google Fi Wireless website built with HTML and CSS. Featur
 - CSS3
 
 ## Preview
-## Preview
 
-![Project Preview](images/screenshot.png)
-
+[![Project Preview](images/screenshot.png)](https://pku88058-dot.github.io/google-fi-homepage-clone/)
 ## Author
 Priya 
