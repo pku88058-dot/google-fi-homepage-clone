@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming languages</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-transform: capitalize;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: sans-serif;
+      background: linear-gradient(to left, rgb(6, 204, 204), rgb(15, 119, 189), rgb(43, 255, 0));
+    }
+
+    h1,
+    h2 {
+      color: #02295c;
+      text-decoration: solid underline 2px white;
+      text-shadow: 0 0 20px rgb(8, 7, 12);
+      margin: 30px;
+      transition: 0.5s;
+    }
+
+    h1:hover {
+      border: 2px #fff;
+    }
+
+    .containar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    ul {
+      width: 300px;
+      border-radius: 20px;
+      background: linear-gradient(to left, rgb(69, 207, 69), rgb(14, 92, 4));
+      list-style: none;
+      text-align: center;
+      box-shadow: 0 0 10px rgb(17, 5, 5);
+    }
+
+    ul li {
+      font-size: 1.3rem;
+      padding: 0.5rem;
+      color: #fff;
+      font-weight: bold;
+      border-bottom: 2px solid rgb(41, 39, 39);
+      transition: 1s;
+    }
+
+    li:last-child {
+      border: none;
+    }
+
+    li:hover {
+      background: linear-gradient(180deg, red, green);
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+      scale: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="font-size: 2.5rem;">My favorite programming languages</h1>
+  <h2>Languages that inspire me to build great things</h2>
+  <div class="containar">
+
+    <ul>
+      <li>Python</li>
+      <li>javaScript</li>
+      <li>C</li>
+      <li>Java</li>
+      <li>HTML</li>
+      <li>Css</li>
+      <li>Dart</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+</body>
+
+</html>
